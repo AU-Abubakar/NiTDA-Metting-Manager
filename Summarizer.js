@@ -1,7 +1,7 @@
 //import { inference } from '@huggingface/inference';
 const inference = require("@huggingface/inference");
 
-const HF_API_KEY = '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'; // Replace with your Hugging Face API key
+const HF_API_KEY = 'HF_KEY'; // Replace with your Hugging Face API key
 
 const summarizeText = async (text) => {
     const client = new inference(HF_API_KEY);
